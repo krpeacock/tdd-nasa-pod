@@ -1,0 +1,27 @@
+{
+  "name": "tdd-nasa-pod",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom --watch",
+    "test:e2e": "cd tests ; chimp . --watch",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "chimp": "^0.51.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.1",
+    "fetch-mock": "^6.0.0",
+    "fibers": "^2.0.0",
+    "mockdate": "^2.0.2",
+    "testdouble": "^3.3.3"
+  }
+}

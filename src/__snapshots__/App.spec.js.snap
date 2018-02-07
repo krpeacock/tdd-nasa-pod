@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App render renders correctly 1`] = `
+<div
+  className="App"
+>
+  <h1
+    className="header"
+  >
+    Nasa Picture of the Day
+  </h1>
+  <Button
+    className="test-back"
+    onClickCallback={[Function]}
+  >
+    &lt;
+  </Button>
+  <span
+    className="date"
+  >
+    2018-02-06
+  </span>
+  <Button
+    className="test-forward"
+    onClickCallback={[Function]}
+  >
+    &gt;
+  </Button>
+  <Picture
+    date="2018-02-06"
+    fetchNasaPicture={[Function]}
+  />
+</div>
+`;
